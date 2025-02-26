@@ -1,16 +1,15 @@
 "use client";
 
 import { Briefcase, Calendar, MapPin, Globe } from "lucide-react";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import AnimatedSectionHeader from "./AnimatedSectionHeader";
 
 export default function Experience() {
   const experiences = [
     {
-      company: "Freelance",
-      location: "Remote",
-      period: "2024 - Present",
+      company: "Fullstack developer",
+      location: "Uzbekistan, Namangan, UITC Academy",
+      period: "2023 - Present",
       role: "MERN Stack Developer",
       responsibilities: [
         "Developing custom web applications for international clients",
@@ -18,32 +17,6 @@ export default function Experience() {
         "Implementing secure backend systems with Node.js and Express",
         "Creating RESTful APIs and managing MongoDB databases",
         "Collaborating with clients to deliver high-quality solutions",
-      ],
-    },
-    {
-      company: "Salaba Fasteners",
-      location: "Saudi Arabia (Hybrid)",
-      period: "2024 - Present",
-      role: "MERN Stack Developer",
-      responsibilities: [
-        "Developed full-fledged ERP system using MERN stack",
-        "Designed and implemented RESTful APIs",
-        "Created responsive interfaces with React.js and Redux",
-        "Implemented secure authentication systems",
-        "Utilized WebSockets for real-time features",
-      ],
-    },
-    {
-      company: "TechVention",
-      location: "Lahore, Pakistan",
-      period: "2022 - 2024",
-      role: "Software Engineer",
-      responsibilities: [
-        "Migrated codebase to Fastify with TypeScript",
-        "Implemented OOP concepts for scalability",
-        "Built backend REST API and OAuth",
-        "Integrated third-party APIs",
-        "Implemented i18n features",
       ],
     },
   ];
@@ -104,14 +77,7 @@ export default function Experience() {
           ))}
         </div>
       </div>
-      <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
-        <Image
-          src="/placeholder.svg?height=256&width=256"
-          alt="Decorative background"
-          width={256}
-          height={256}
-        />
-      </div>
+      <div className="absolute bottom-0 right-0 w-64 h-64 opacity-20 bg-gray-50" />
     </section>
   );
 }

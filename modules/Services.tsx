@@ -1,20 +1,21 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Code, Layout, Server, Smartphone } from "lucide-react"
-import Image from "next/image"
+import { motion } from "framer-motion";
+import { Code, Layout, Server, Smartphone } from "lucide-react";
 
 export default function Services() {
   const services = [
     {
       icon: <Layout className="w-12 h-12 text-blue-500" />,
       title: "Web Application Development",
-      description: "Custom web applications built with React and Next.js, focusing on performance and user experience.",
+      description:
+        "Custom web applications built with React and Next.js, focusing on performance and user experience.",
     },
     {
       icon: <Server className="w-12 h-12 text-green-500" />,
       title: "Backend Development",
-      description: "Robust and scalable server-side solutions using Node.js, Express, and Fastify.",
+      description:
+        "Robust and scalable server-side solutions using Node.js, Express, and Fastify.",
     },
     {
       icon: <Code className="w-12 h-12 text-purple-500" />,
@@ -25,9 +26,10 @@ export default function Services() {
     {
       icon: <Smartphone className="w-12 h-12 text-yellow-500" />,
       title: "Responsive Design",
-      description: "Mobile-first, responsive web designs that work flawlessly across all devices and screen sizes.",
+      description:
+        "Mobile-first, responsive web designs that work flawlessly across all devices and screen sizes.",
     },
-  ]
+  ];
 
   return (
     <section
@@ -56,17 +58,18 @@ export default function Services() {
             >
               <div className="flex items-center mb-4">
                 {service.icon}
-                <h3 className="text-2xl font-semibold ml-4 dark:text-white">{service.title}</h3>
+                <h3 className="text-2xl font-semibold ml-4 dark:text-white">
+                  {service.title}
+                </h3>
               </div>
-              <p className="text-gray-600 dark:text-gray-300">{service.description}</p>
+              <p className="text-gray-600 dark:text-gray-300">
+                {service.description}
+              </p>
             </motion.div>
           ))}
         </div>
       </div>
-      <div className="absolute top-0 left-0 w-64 h-64 -mt-32 -ml-32 opacity-20">
-        <Image src="/placeholder.svg?height=256&width=256" alt="Decorative background" width={256} height={256} />
-      </div>
+      <div className="absolute bottom-0 right-0 w-64 h-64 opacity-20 bg-gray-50" />
     </section>
-  )
+  );
 }
-

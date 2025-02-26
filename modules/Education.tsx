@@ -1,9 +1,8 @@
-"use client"
+"use client";
 
-import { GraduationCap, Calendar, Award } from "lucide-react"
-import Image from "next/image"
-import AnimatedSectionHeader from "./AnimatedSectionHeader"
-import { motion } from "framer-motion"
+import { GraduationCap, Calendar, Award } from "lucide-react";
+import AnimatedSectionHeader from "./AnimatedSectionHeader";
+import { motion } from "framer-motion";
 
 export default function Education() {
   const education = [
@@ -17,7 +16,7 @@ export default function Education() {
         "Completed capstone project on 'Intelligent Web Application for Healthcare'",
       ],
     },
-  ]
+  ];
 
   return (
     <section
@@ -42,7 +41,9 @@ export default function Education() {
                   <GraduationCap className="w-6 h-6 mr-2" />
                   {edu.degree}
                 </h3>
-                <p className="text-xl text-gray-600 dark:text-gray-300 mb-4">{edu.institution}</p>
+                <p className="text-xl text-gray-600 dark:text-gray-300 mb-4">
+                  {edu.institution}
+                </p>
                 <p className="text-gray-600 dark:text-gray-300 mb-4 flex items-center">
                   <Calendar className="w-4 h-4 mr-2" />
                   {edu.period}
@@ -63,10 +64,7 @@ export default function Education() {
           ))}
         </div>
       </div>
-      <div className="absolute top-0 left-0 w-64 h-64 -mt-32 -ml-32 opacity-20">
-        <Image src="/placeholder.svg?height=256&width=256" alt="Decorative background" width={256} height={256} />
-      </div>
+      <div className="absolute bottom-0 right-0 w-64 h-64 opacity-20 bg-gray-50" />
     </section>
-  )
+  );
 }
-

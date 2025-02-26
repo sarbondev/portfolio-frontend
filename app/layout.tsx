@@ -1,20 +1,21 @@
-import "./globals.css"
-import { Inter } from "next/font/google"
-import type React from "react"
-import { ThemeProvider } from "@/components/theme-provider"
-import { ModeToggle } from "@/components/mode-toggle"
+import "./globals.css";
+import { Inter } from "next/font/google";
+import type React from "react";
+import { ThemeProvider } from "@/components/theme-provider";
+import { ModeToggle } from "@/components/mode-toggle";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Usman Zafar - MERN Stack Developer",
-  description: "Portfolio of Usman Zafar, a MERN Stack Developer specializing in full-stack web applications.",
-}
+  title: "Suhrob Rahmatullayev - MERN Stack Developer",
+  description:
+    "Portfolio of Suhrob Rahmatullayev, a MERN Stack Developer specializing in full-stack web applications.",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -27,6 +28,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
-
