@@ -32,8 +32,7 @@ export default function Contact() {
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
     try {
-      // Here you would typically send the form data to your backend
-      await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate API call
+      await new Promise((resolve) => setTimeout(resolve, 1000));
       setSubmitSuccess(true);
       reset();
       setTimeout(() => setSubmitSuccess(false), 3000);
@@ -73,22 +72,22 @@ export default function Contact() {
               </h3>
               <div className="space-y-6">
                 <a
-                  href="mailto:musmanzafar53@gmail.com"
+                  href="https://suhrobrahmatullayev973132@gmail.com"
                   className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
                 >
                   <Mail className="w-6 h-6 mr-3 text-blue-600" />
-                  musmanzafar53@gmail.com
+                  suhrobrahmatullayev973132@gmail.com
                 </a>
                 <a
-                  href="tel:+923055356766"
+                  href="tel:+998900021462"
                   className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
                 >
                   <Phone className="w-6 h-6 mr-3 text-blue-600" />
-                  +92-305-5356766
+                  +998 90 002 14 62
                 </a>
                 <div className="flex items-center text-gray-600 dark:text-gray-300">
                   <MapPin className="w-6 h-6 mr-3 text-blue-600" />
-                  Lahore, Pakistan
+                  Uzbekistan
                 </div>
               </div>
             </div>

@@ -1,12 +1,14 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 interface AnimatedSectionHeaderProps {
-  title: string
+  title: string;
 }
 
-export default function AnimatedSectionHeader({ title }: AnimatedSectionHeaderProps) {
+export default function AnimatedSectionHeader({
+  title,
+}: AnimatedSectionHeaderProps) {
   return (
     <motion.h2
       className="text-4xl font-bold mb-12 text-center dark:text-white"
@@ -17,6 +19,5 @@ export default function AnimatedSectionHeader({ title }: AnimatedSectionHeaderPr
     >
       {title}
     </motion.h2>
-  )
+  );
 }
-

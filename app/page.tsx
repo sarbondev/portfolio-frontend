@@ -3,9 +3,9 @@ import About from "../modules/About";
 import Experience from "../modules/Experience";
 import Skills from "../modules/Skills";
 import Services from "../modules/Services";
-import Education from "../modules/Education";
+// import Education from "../modules/Education";
 import Contact from "../modules/Contact";
-import FloatingNav from "../modules/floating-nav";
+import FloatingNav from "@/components/FloatingNav";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Experience />
       <Skills />
       <Services />
-      <Education />
+      {/* <Education /> */}
       <Contact />
     </main>
   );

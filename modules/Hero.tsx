@@ -35,21 +35,21 @@ export default function Hero() {
             </p>
             <div className="flex justify-center lg:justify-start space-x-4 mb-8">
               <a
-                href="#"
+                href="https://github.com/Rakhsrb"
                 className="p-3 rounded-full bg-white/80 hover:bg-white dark:bg-gray-800/80 dark:hover:bg-gray-800 transition-colors duration-300 shadow-lg hover:shadow-xl"
                 aria-label="GitHub Profile"
               >
                 <Github className="w-6 h-6 text-gray-700 dark:text-gray-300" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/%D1%81%D1%83%D1%85%D1%80%D0%BE%D0%B1-%D1%80%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%83%D0%BB%D0%BB%D0%B0%D0%B5%D0%B2-6a0469258/"
                 className="p-3 rounded-full bg-white/80 hover:bg-white dark:bg-gray-800/80 dark:hover:bg-gray-800 transition-colors duration-300 shadow-lg hover:shadow-xl"
                 aria-label="LinkedIn Profile"
               >
                 <Linkedin className="w-6 h-6 text-gray-700 dark:text-gray-300" />
               </a>
               <a
-                href="mailto:musmanzafar53@gmail.com"
+                href="https://suhrobrahmatullayev973132@gmail.com"
                 className="p-3 rounded-full bg-white/80 hover:bg-white dark:bg-gray-800/80 dark:hover:bg-gray-800 transition-colors duration-300 shadow-lg hover:shadow-xl"
                 aria-label="Email Contact"
               >
