@@ -9,7 +9,6 @@ const sections = [
   { id: "experience", label: "Experience" },
   { id: "skills", label: "Skills" },
   { id: "services", label: "Services" },
-  // { id: "education", label: "Education" },
   { id: "contact", label: "Contact" },
 ];
 
