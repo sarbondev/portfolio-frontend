@@ -74,8 +74,6 @@ export default function Header() {
             ["about", "About"],
             ["experience", "Experience"],
             ["skills", "Skills"],
-            ["services", "Services"],
-            ["education", "Education"],
             ["contact", "Contact"],
           ].map(([id, label]) => (
             <li key={id}>

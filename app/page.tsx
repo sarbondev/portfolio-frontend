@@ -2,8 +2,6 @@ import Hero from "../modules/Hero";
 import About from "../modules/About";
 import Experience from "../modules/Experience";
 import Skills from "../modules/Skills";
-import Services from "../modules/Services";
-// import Education from "../modules/Education";
 import Contact from "../modules/Contact";
 import FloatingNav from "@/components/FloatingNav";
 
@@ -15,8 +13,6 @@ export default function Home() {
       <About />
       <Experience />
       <Skills />
-      <Services />
-      {/* <Education /> */}
       <Contact />
     </main>
   );
