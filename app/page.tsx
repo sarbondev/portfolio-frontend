@@ -3,7 +3,7 @@ import About from "../modules/About";
 import Experience from "../modules/Experience";
 import Skills from "../modules/Skills";
 import Contact from "../modules/Contact";
-import FloatingNav from "@/components/FloatingNav";
+import FloatingNav from "@/components/floating-navbar";
 
 export default function Home() {
   return (
